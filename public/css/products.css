@@ -131,8 +131,6 @@ img {
 }
 .text {
   padding: 20px #511202;
-  min-height: inherit !important;
-  height: 100% !important;
 }
 .text > button {
   background: #f42c40;
