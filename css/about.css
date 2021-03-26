@@ -1,0 +1,195 @@
+/* Fonts Styling */
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+/* General Styling */
+
+* {
+  margin: 10;
+  padding: 10;
+  font-family: "montserrat", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  font-family: "Lato" sans-serif;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+/* About */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  min-width: 480px;
+  color: #3a3a3a;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.7em;
+  font-weight: 900;
+  color: #136c72;
+  padding-bottom: 0.5em;
+}
+
+p {
+  line-height: 1.4;
+  margin-bottom: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  width: 100%;
+  text-align: center;
+}
+
+.col + .col {
+  margin-left: 1em;
+}
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzR8fGN1cGNha2UlMjBiYWNrZ3JvdW5kJTIwY2xlYXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+    no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+  color: white;
+  padding-bottom: 2em;
+}
+
+.hero__text {
+  width: 60%;
+  max-width: 740px;
+}
+
+.hero__img {
+  width: 35%;
+  align-self: start;
+}
+
+.blarb {
+  width: 60%;
+  padding: 2em 0;
+}
+
+/* What our clients say styling */
+.section2,
+.section3,
+.section4,
+.section6,
+.section7,
+.section8 {
+  padding: 5% 10%;
+  text-align: justify;
+}
+
+.section2 div {
+  margin: 40px 70px 0px 0px;
+}
+
+.section2 img:nth-child(2) {
+  margin: 0px 10px 0px 0px;
+}
+
+.section3 {
+  background: #effef9;
+}
+
+.section3 div {
+  margin: 40px 30px;
+}
+
+.elements04 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elements04 p {
+  width: 500px;
+  justify-content: center;
+  text-align: center;
+}
+
+.section4,
+.elements04 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.section4 img {
+  margin: 10% 0px;
+}
+
+.elements04plat {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.elements04plat div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.elements04plat div img {
+  width: 100%;
+}
+
+.section5 {
+  height: 445px;
+}
+
+.section5 div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+}

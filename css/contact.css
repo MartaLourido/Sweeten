@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+ padding:0;
+}
+
+body{
+ width:100vw;
+ background-color:white;
+ 
+
+}
+.container {
+ max-width: 60%;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ margin: auto;
+ text-align: center;
+ 
+ 
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: 1fr !important;
+   
+ }
+
+ #contactme .titleContactMe {
+   font-family: "Shadows Into Light", cursive;
+   font-size: 60px !important;
+   transform: rotate(2deg) !important;
+   margin-top: 0px;
+ }
+
+
+
+#contactme {
+ padding: 0;
+ background: url(https://media.gettyimages.com/photos/cupcake-border-picture-id173230075?k=6&m=173230075&s=612x612&w=0&h=B1j6ikZ0xanNEbq230jk6EZxAIWXUSZhktb0KGQDPk0=) no-repeat center;
+ background-size: cover;
+}
+
+.titleContactMe {
+ text-align: center;
+ font-family: "Shadows Into Light", cursive;
+ font-size: 80px;
+ transform: rotate(2deg);
+ color: #f8f6f6db;
+ margin-bottom: 60px;
+}
+
+.wrapper {
+ box-shadow: 0 0 20px 0 #511202;
+ margin-bottom: 100px;
+ border-radius: 25px;
+ background: #f42c40;
+}
+.wrapper > * {
+ padding: 1.5em;
+}
+.greet h3,
+.greet p {
+ color: white;
+}
+.greet h3 {
+ font-family: "Shadows Into Light", cursive;
+ font-size: 2rem;
+}
+
+.greet h3 span {
+ color: antiquewhite;
+ font-size: 2.5rem;
+ font-family: "Shadows Into Light", cursive;
+ font-weight: bold;
+}
+
+.contact {
+ background: #fafbfc;
+ border-radius: 25px;
+}
+.contact form {
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-gap: 5px;
+ 
+}
+.contact form input,
+.contact form textarea {
+ width: 50%;
+ padding: 1em;
+ border: none;
+ outline: none;
+ background: transparent;
+ border-bottom: 1px solid #4f5050af;
+ color: #4f5050af;
+}
+
+#btn-form input {
+ border: none;
+ width: 150px;
+ background: #f42c40;
+ color: #fff;
+ font-size: 1.5rem;
+ padding: 0.5rem 1rem;
+ text-decoration: none;
+ border-radius: 10px;
+}
+#btn-form input:hover {
+ cursor: pointer;
+ color: 	#FFFFCC;
+  -moz-box-shadow:    inset 0 0 10px #909090;
+  -webkit-box-shadow: inset 0 0 10px #909090;
+  box-shadow:         inset 0 0 10px #909090;
+
+}
+.error i {
+ color: rgba(255, 0, 0, 0.699);
+ font-size: 6px;
+}
+
+svg {
+ background-size: cover;
+ width: 100%;
+ display: block;
+}
+
+@media (max-width: 750px) {
+ .wrapper {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+ }
+
+ .wrapper > * {
+   padding: 2em;
+ }
+
+ .company-info h3,
+ .company-info ul,
+ .brand {
+   text-align: left;
+ }
+}
+
