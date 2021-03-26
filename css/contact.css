@@ -16,13 +16,11 @@ body{
  margin: auto;
  text-align: center;
  
- 
 }
 
 .wrapper {
    display: grid;
    grid-template-columns: 1fr !important;
-   
  }
 
  #contactme .titleContactMe {
