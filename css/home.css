@@ -12,9 +12,9 @@
   text-align: center;
 }
 
-/* .background h1 {
-	font-family: $font-title;
-} */
+.background h1 {
+  font-family: "Old Standard TT", serif;
+}
 
 h1 {
   border-bottom: 1px solid #f42c40;
@@ -28,7 +28,7 @@ h1 {
 }
 
 p {
-  /* font-family: $font-secondary; */
+  font-family: "Ubuntu Condensed", sans-serif;
   font-weight: 300;
   padding-bottom: 3rem;
 }
@@ -49,7 +49,6 @@ p {
   border-color: white;
 }
 
-/** Section 5 */
 /** Buttons Styiling */
 
 .btn {
@@ -85,8 +84,7 @@ p {
 .wrapper h1 {
   margin-bottom: 40px;
   font-size: 42px;
-  color: #f42c40;;
-  
+  color: #f42c40;
 }
 
 .wrapper p {
@@ -107,7 +105,6 @@ p {
   border-radius: 5px;
   border: #511202;
   font-weight: bold;
-  
 }
 
 .newsletter .envelope {
@@ -133,8 +130,6 @@ p {
   text-transform: uppercase;
 }
 
-/** section 1 */
-
 /* Section1 */
 
 .section1 {
@@ -147,14 +142,14 @@ p {
   background-color: #f7f6f4;
 }
 h1 {
-  /*font-family:  $font-title;*/
+  font-family: "Old Standard TT", serif;
   font-size: 4rem;
   padding-bottom: 0;
   border-bottom: none;
 }
 
 h4 {
-  /*font-family: $font-primary;*/
+  font-family: "Ubuntu Condensed", sans-serif;
   text-transform: uppercase;
   font-size: 1.5rem;
   color: #f42c40;
@@ -195,7 +190,7 @@ h3 {
 .blockquote {
   color: #f42c40;
   font-style: italic;
-  /*font-family: $font-primary;*/
+  font-family: "Old Standard TT", serif;
   margin-top: 2rem;
 }
 

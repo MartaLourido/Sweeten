@@ -4,15 +4,16 @@
 }
 
 body{
- width:100vw;
+width:100vw;
  background-color:white;
- 
 
+ 
 }
 .container {
- max-width: 60%;
+ max-width: 80%;
  padding-left: 1rem;
  padding-right: 1rem;
+ padding-top: 1rem;
  margin: auto;
  text-align: center;
  
@@ -29,7 +30,6 @@ body{
    transform: rotate(2deg) !important;
    margin-top: 0px;
  }
-
 
 
 #contactme {
@@ -77,7 +77,7 @@ body{
  border-radius: 25px;
 }
 .contact form {
- display: grid;
+ display: grid !important;
  grid-template-columns: 1fr;
  grid-gap: 5px;
  

@@ -4,28 +4,13 @@
 /* General Styling */
 
 * {
-  margin: 10;
-  padding: 10;
-  font-family: "montserrat", sans-serif;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: white;
-  font-family: "Lato" sans-serif;
-}
-
-#page-wrapper {
-  position: relative;
 }
 
 /* About */
@@ -50,13 +35,13 @@ h1 {
   font-weight: 900;
   letter-spacing: 0.1rem;
   margin-bottom: 1em;
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Old Standard TT", serif;
 }
 
 h2 {
   font-size: 1.7em;
   font-weight: 900;
-  color: #136c72;
+  color: #f42c40;
   padding-bottom: 0.5em;
 }
 
@@ -116,11 +101,7 @@ img {
 
 /* What our clients say styling */
 .section2,
-.section3,
-.section4,
-.section6,
-.section7,
-.section8 {
+.section3 {
   padding: 5% 10%;
   text-align: justify;
 }

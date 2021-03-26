@@ -2,10 +2,20 @@
 <!-- Links to connect with other files -->
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <link
+  href="https://fonts.googleapis.com/css?family=Shadows+Into+Light"
+  rel="stylesheet"
+ />
+ <link
+ rel="stylesheet"
+ href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+ integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+ crossorigin="anonymous"
+/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">  
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/contact.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">  
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>  
 <body>  
   
@@ -37,19 +47,6 @@
         
 <!-- Contact form -->
 
- <link
- href="https://fonts.googleapis.com/css?family=Shadows+Into+Light"
- rel="stylesheet"
-/>
-
-<!--FontAwesome -->
-<link
- rel="stylesheet"
- href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
- integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
- crossorigin="anonymous"
-/>
-
 <section id="contactme">
  <div class="container">
    <h2 class="titleContactMe animate-box"></h2>
@@ -59,16 +56,16 @@
 
       <h3><span>Contact us</span> 
        <p id="hide-text-small-screen">
-         We want to hear from you <i class="fas fa-cupcake"></i>
+       We are here for help you! <i class="fas fa-cupcake"></i>
        </p>
      </div>
 
      <div class="contact">
        
-       <form method="" action="">
+      <form action="mailto:softwaredevelopmentacademy@gmail.com" method="post" enctype="text/plain" onsubmit="location.href='thanks.html';">
          <p>
            
-           <input name="name" type="text" placeholder="Your Full Name" />
+           <input name="name" type="text" placeholder="Name" />
            <span class="error"><i class="fas fa-circle"></i> </span>
          </p>
          <br />
@@ -76,18 +73,14 @@
            <input
              name="email"
              type="text"
-             placeholder="Your E-mail Address"
+             placeholder="Email"
            />
            <span class="error"><i class="fas fa-circle"></i> </span>
          </p>
          <br />
-         <p><input name="subject" type="text" placeholder="Subject" /></p>
+         <p><input name="subject" type="text" placeholder="Subject"  />
          <p>
-           <textarea
-             name="message"
-             placeholder="Message"
-             rows="4"
-           ></textarea>
+          <textarea name="body" placeholder="Write here your text" ></textarea>
          </p>
          <br />
          <p id="btn-form"><input type="submit" name="submit" /></p>
@@ -105,33 +98,24 @@
 </section>
 
 
- <!-- Footer -->
- <footer class="footer">
-  <!-- Sending an email to the email address -->
-  <a href="mailto:martalouri@gmail.com" class="footer__link">martalouri@gmail.com</a>
-  <!-- Social media icons -->
-  <ul class="social-list">
-      <li class="social-list__item">
-          <a class="social-list__link" href="https://codepen.io/martalourido">
-              <i class="fab fa-codepen"></i>
-          </a>
-      </li>
-      <li class="social-list__item">
-          <a class="social-list__link" href="https://www.linkedin.com/in/marta-lourido-a8714a100/?locale=en_US">
-              <i class="fab fa-linkedin-in"></i>
-          </a>
-      </li>
-      <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com/martalouri">
-              <i class="fab fa-twitter"></i>
-          </a>
-      </li>
-      <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/MartaLourido">
-              <i class="fab fa-github"></i>
-          </a>
-      </li>
-  </ul>
-</div>
-</body>
+   <!-- Footer -->
+   <footer class="footer">
+    <!-- Sending an email to the email address -->
+    <a href="mailto:softwaredevelopmentacademy@gmail.com?subject=I have a question!&body=Name:%0DPhone:%0DQuestion:" class="footer__link">Contact us by email</a>
+    <!-- Social media icons -->
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.facebook.com/tastemadeSweeten/">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.instagram.com/sweetcupcake.shop/?igshid=gp7el90uhhr7">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+    </ul>
 </footer>
+</div>
+</body>  
+</html>
