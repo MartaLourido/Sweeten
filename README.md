@@ -23,9 +23,9 @@ softwaredevelopmentacademy@gmail.com (redacted)
 
 ## Project Notes
 
-• Used Sketch to make the wireframes
-• Used Trello for organization
-• Used Firebase to deployment the website 
+- Used Sketch to make the wireframes
+- Used Trello for organization
+- Used Firebase to deployment the website 
 
 ## Take a look 
 
