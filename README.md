@@ -1,5 +1,5 @@
 # Sweeten 
-### A website for a bakery which makes the coolest cupcakes and wedding cakes
+### A website for a cakery which makes the coolest cupcakes and wedding cakes
 
 ## Requirements
 
